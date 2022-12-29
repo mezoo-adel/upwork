@@ -40,25 +40,25 @@ let navItem3 = this.document.querySelector("#collapse3");
 let navItem4 = this.document.querySelector("#collapse4");
 //this is a listener for @media query screen
 const mQuery = window.matchMedia('(max-width: 768px)');
-
+alert(mQuery);
 
 //function will be used as callBack function
 function showLsItemsOfAccordion(e) {
-    console.log("im NOTHERE  media on" + e.matches);
+    alert("im NOTHERE  media on" + e.matches);
     if (e.matches) {
         console.log("im changing media on" + e.matches);
         navItem1.classList.remove("show");
         navItem2.classList.remove("show");
         navItem3.classList.remove("show");
         navItem4.classList.remove("show");
-        console.log(e.matches);
+        confirm(e.matches);
     } else {
         console.log("im NOT small media on" + e.matches);
         navItem1.classList.add("show");
         navItem2.classList.add("show");
         navItem3.classList.add("show");
         navItem4.classList.add("show");
-        console.log(e);
+        prompt(e);
     }
 }
 //add this is listener on @media query screen
