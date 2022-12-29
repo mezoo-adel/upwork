@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>
+        Upwork.com
+    </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--HELOOOO FROM MEZOOO USE cdn js FILES PLEASEEEEE-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <section class="container-fluid fixed-top" style="font-size: 16px; background-color: white;">
+        <div class="row  px-2">
+            <!--Navbar With Search and Login-->
+            <nav class="navbar navbar-expand-lg navbar-light" style="border-bottom: 1px solid rgb(92, 92, 92);">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="images/logo.svg" class="logo" alt="">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarScroll">
+                        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+                            style="--bs-scroll-height: 500px;">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Find Talent
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Post a job and hire a pro</a></li>
+                                    <li><a class="dropdown-item" href="#">Browse and buy projects</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Let us find you the right talent</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Find Work
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Ways to learn</a></li>
+                                    <li><a class="dropdown-item" href="#">Find work for your skills</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Find ways to promote yourself</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Why Upwork
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Success Stories</a></li>
+                                    <li><a class="dropdown-item" href="#">How to hire people</a></li>
+                                    <li><a class="dropdown-item" href="#">How to find work</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    <li><a class="dropdown-item" href="#">Reviews</a></li>
+                            </li>
+                        </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ">Enterprise</a>
+                        </li>
+                        <div class="d-block row ms-5 me-5 d-lg-none">
+                            <a href="login.html" class="btn btn-outline-success me-1">log in</a>
+                            <a href="signup.html" class="btn btn-outline-primary">sign up</a>
+                        </div>
+
+                        </ul>
+                        <!--Searchngggggggggggggggggggggggggggggggggggggggg Boxxxxxxxxxxxxxxx-->
+                        <div class="col-6 d-none d-lg-block">
+                            <form class="d-flex form_search">
+                                <input class="form-control me-1" type="search" placeholder="Search" aria-label="Search"
+                                    style="width: 62%;">
+                                <button class="btn btn-outline-secondary me-1">Search </button>
+                                </button>
+
+                                <a href="login.html" class="btn btn-outline-success me-1">log in</a>
+                                <a href="signup.html" class="btn btn-outline-primary">sign up</a>
+
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </nav> <!--End of Navbar-->
+            <!--Navbar SEconddDDDDDDDDDDDDDDDDDDDDDDDDDD-->
+            <nav class="navbar navbar-expand-lg navbar-light">
+
+                <div class="container-fluid d-none d-lg-block">
+                    <div class="collapse navbar-collapse">
+                        <ul class="navbar-nav me-auto my-2">
+                            <li class="nav-item">
+                                <a class="nav-link ">Development &amp; IT</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link ">Design &amp; Creative</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link ">Sales &amp; Marketing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link ">Writing &amp; Translation</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link ">Admin &amp; Customer Support </a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    More
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Finance & Accounting</a></li>
+                                    <li><a class="dropdown-item" href="#"> Engineering & Architecture</a></li>
+                                    <li><a class="dropdown-item" href="#">Legal</a></li>
+                                </ul>
+                            </li>
+
+
+                    </div>
+                </div>
+            </nav> <!--End of Navbar-->
+        </div>
+
+
+    </section>
+
+
+    <!--Div With Image-->
+    <div class="container head-container " style="margin-top: 150px;">
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <h1 class="display-4">Help your team thrive with HR and training experts </h1>
+                <p class="lead">Hundreds of independent professionals who’ll give your people the experience
+                    they deserve, and keep your organization running smoothly. </p>
+                    <a href="find-work.html" class="btn" id="getStarted">Get Started</a>
+            </div>
+            <div class="d-none d-md-block col-md-6"><img
+                    src="https://assets-global.website-files.com/604761b6a7e539ea274cfd6b/61489931e242c2f68d558b72_HR.jpeg"
+                    loading="eager" alt="HR &amp; Training"></div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div id="trusted_by">
+            <b>Trusted by</b>
+            <img src="https://assets-global.website-files.com/603fea6471d9d8559d077603/606ad171bd184644e7f53d6c_Microsoft.svg"
+                alt="Microsoft Logo">
+            <img src="https://assets-global.website-files.com/603fea6471d9d8559d077603/606ad17043ba40d94531ff42_Airbnb.svg"
+                alt="Airbnb Logo ">
+            <img src="https://assets-global.website-files.com/603fea6471d9d8559d077603/606ad171e5289d3760cfac09_logo-automatic.svg"
+                alt="Airbnb Logo">
+            <img src="https://assets-global.website-files.com/603fea6471d9d8559d077603/606ad17089ad7f5f01b74d27_Bissell.svg"
+                alt="Bissell logo">
+            <img src="https://assets-global.website-files.com/603fea6471d9d8559d077603/60c6f358639e8cc66cee6e64_NASDAQ_Logo.svg"
+                alt="Nasdaq logo ">
+        </div>
+        <hr style="width: 85%; margin: 15px auto; " />
+    </div> <!--End of Div with Trusted By Image-->
+
+    <!--SEARCHING FOR JJJJJJJJJJOoooooooooooooobbbbbbbbbbbbbbbbSSSSS-->
+    <div class="container mt-5">
+        <p class=" headFontStyle">Browse talent by category</p>
+        <p class=" paragFontStyle">Looking for work? <span class="txtLink text-success">Browse jobs</span></p>
+    </div> <!--End ofSEARCHING FOR JJJJJJJJJJOoooooooooooooobbbbbbbbbbbbbbbbSSSSS-->
+
+    <div class="container" id="categoJobs">
+        <div class="row">
+            <section class="col-12 col-md-6 col-lg-3 mb-2" style="height: 8rem;">
+                <div class="card bg-light h-100 btn">
+                    <div class=" card-body">
+                        <h5 class="h5 mb-3">Development & IT</h5>
+                        <div style="display: flex; justify-content: space-between;">
+                            <p class="card-text"> <i class="fa-solid fa-star text-success"></i> <span>star </span> </p>
+                            <p class="card-text"><span>424 </span> skills </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="col-12 col-md-6 col-lg-3 mb-2 ">
+                <div class="card bg-light h-100 btn">
+                    <div class=" card-body">
+                        <h5 class="h5 mb-3">Design & Creative</h5>
+                        <div style="display: flex; justify-content: space-between;">
+                            <p class="card-text"> <i class="fa-solid fa-star text-success"></i> <span>star </span> </p>
+                            <p class="card-text"><span>424 </span> skills </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="col-12 col-md-6 col-lg-3 mb-2 ">
+                <div class="card bg-light h-100 btn">
+                    <div class=" card-body">
+                        <h5 class="h5 mb-3">Sales & Marketing</h5>
+                        <div style="display: flex; justify-content: space-between;">
+                            <p class="card-text"> <i class="fa-solid fa-star text-success"></i> <span>star </span> </p>
+                            <p class="card-text"><span>424 </span> skills </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="col-12 col-md-6 col-lg-3 mb-2">
+                <div class="card bg-light h-100 btn">
+                    <div class=" card-body">
+                        <h5 class="h5 mb-3">Writing & Translation</h5>
+                        <div style="display: flex; justify-content: space-between;">
+                            <p class="card-text"> <i class="fa-solid fa-star text-success"></i> <span>star </span> </p>
+                            <p class="card-text"><span>424 </span> skills </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="row">
+            <section class=" d-none d-md-block col-12 col-md-6 col-lg-3 mb-2 toBeShown" style="height: 8rem;">
+                <div class="card bg-light h-100 btn">
+                    <div class=" card-body">
+                        <h5 class="h5 mb-3">Admin &amp; Customer Support </h5>
+                        <div style="display: flex; justify-content: space-between;">
+                            <p class="card-text"> <i class="fa-solid fa-star text-success"></i> <span>star </span> </p>
+                            <p class="card-text"><span>424 </span> skills </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="d-none d-md-block col-md-6 col-lg-3 mb-2  toBeShown">
+                <div class="card bg-light h-100 btn">
+                    <div class=" card-body">
+                        <h5 class="h5 mb-3">Finance & Accounting</h5>
+                        <div style="display: flex; justify-content: space-between;">
+                            <p class="card-text"> <i class="fa-solid fa-star text-success"></i> <span>star </span> </p>
+                            <p class="card-text"><span>424 </span> skills </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="d-none d-md-block col-md-6 col-lg-3 mb-2  toBeShown" style="height: 8rem;">
+                <div class="card bg-light h-100 btn">
+                    <div class=" card-body">
+                        <h5 class="h5 mb-3"> Engineering & Architecture</h5>
+                        <div style="display: flex; justify-content: space-between;">
+                            <p class="card-text"> <i class="fa-solid fa-star text-success"></i> <span>star </span> </p>
+                            <p class="card-text"><span>424 </span> skills </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="d-none d-md-block col-md-6 col-lg-3 mb-2  toBeShown">
+                <div class="card bg-light h-100 btn">
+                    <div class=" card-body">
+                        <h5 class="h5 mb-3">Legal</h5>
+                        <div style="display: flex; justify-content: space-between;">
+                            <p class="card-text"> <i class="fa-solid fa-star text-success"></i> <span>star </span> </p>
+                            <p class="card-text"><span>424 </span> skills </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div id="seeMoreCateg" class="d-md-none h5 row txtLink text-success g-0 ">Show more...</div>
+    </div>
+
+    <!--SECTION OF SKILLS BRE FOOTER-->
+    <section class="container mt-5 skillsHover">
+        <div class="row">
+            <section class="col-12 col-md-5">
+                <div class="d-flex flex-row flex-md-column" style=" overflow-x: auto;">
+                    <p class="display-6 listOfSkills nav-item" style="min-width: 39%;">Top skills ™</p>
+                    <p class="display-6 listOfSkills nav-item" style="min-width: 47%;">Trending skills</p>
+                    <p class="display-6 listOfSkills nav-item" style="min-width: 54%;">Top skills in USA</p>
+                    <p class="display-6 listOfSkills nav-item" style="min-width: 45%;">Project catalog</p>
+                </div>
+            </section>
+            <section class="col-6 col-md-4">
+                <p> Top skills Top skills</p>
+                <p> Top skills Top skills</p>
+                <p>Trending skills Top skills</p>
+                <p> Top skills Top skills</p>
+                <p>Trending skills Top skills</p>
+                <p>Top skills in USA </p>
+                <p>Project catalog Top </p>
+                <p>Top skills in USA </p>
+                <p> Top skills Top skills</p>
+                <p>Trending skills Top skills</p>
+                <p>Top skills in USA </p>
+                <p>Top skills in USA </p>
+                <p>Project catalog Top </p>
+                <p>Trending skills Top skills</p>
+                <p> Top skills Top skills</p>
+                <p>Trending skills Top skills</p>
+                <p>Top skills in USA </p>
+                <p>Project catalog Top </p>
+                <p>Top skills in USA </p>
+            </section>
+            <section class="col-6 col-md-3">
+                <p>Top skills in USA </p>
+                <p>Project catalog Top </p>
+                <p>Project catalog Top </p>
+                <p>Top skills in USA </p>
+                <p>Project catalog Top </p>
+                <p>Project catalog Top </p>
+                <p> Top skills Top skills</p>
+                <p>Trending skills Top skills</p>
+                <p>Top skills in USA </p>
+                <p>Project catalog Top </p>
+                <p>Top skills</p>
+                <p>Trending skills</p>
+                <p>Top skills in USA</p>
+                <p>Project catalog</p>
+            </section>
+        </div>
+
+    </section> <!--END OF SECTION OF SKILLS BRE FOOTER-->
+    <!--Div for image Card with 333333333333333333333333333333333333333333333333333333333333333333333333333333333 buttons-->
+    <section class="container">
+        <div style="background-image: linear-gradient(#b9dfb4ab,300px,transparent) 
+        ,url(https://wise.com/imaginary/517f48f1e53eb353b4815a34a823fb87.jpg?width=1200);
+        background-repeat: no-repeat; background-position: center;">
+            <div class="head-container row col-9 col-md-7 p-3">
+                <i class="lead ms-3 mt-3 text-light ">For Clients</i>
+                <div class="d-flex flex-column ms-auto">
+                    <h1 class="display-4">Find talent your way</h1>
+                    <p style="font-weight: 900;">Hundreds of independent professionals who’ll give your
+                        people the experience
+                        they deserve, and keep your organization running smoothly. </p>
+                </div>
+            </div>
+            <section class="row p-3">
+
+                <div class="col-12 col-md-4 head-container mb-1">
+                    <a style="text-align: left;" class="btn btn-success w-100" href="https://www.google.com">
+                        <h2>Post a job and hire a pro</h2>
+                        <h5 style="text-align: left;color: snow;">Talent Market place™ ➡</h5>
+                    </a>
+                </div>
+                <div class="col-12 col-md-4 head-container mb-1">
+                    <a style="text-align: left;" class="btn btn-success w-100 " href="https://www.google.com">
+                        <h2>Browse and buy projects</h2>
+                        <h5 style="text-align: left;color: snow;">Project Cataloge™ ➡</h5>
+                    </a>
+                </div>
+                <div class="col-12 col-md-4 head-container mb-1">
+                    <a style="text-align: left;" class="btn btn-success w-100" href="https://www.google.com">
+                        <h2>Let us help you find the right talent</h2>
+                        <h5 style="text-align: left;color: snow;">Talent Scout™ ➡</h5>
+                    </a>
+                </div>
+
+            </section>
+
+        </div>
+    </section>
+
+    <!-- /////////start footer -->
+
+    <section class="container-fluid  my-4">
+        <footer class="footer">
+            <!-- <hr class="mt-5 text-light w-50 m-auto"> -->
+            <div class="row footer_titles  mt-4">
+                <div class="col-12 col-md-3 mb-4">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <h5 class=" navbar navbar-expand-lg  dropdown-toggle" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne">For Clients</h5>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show ">
+                            <ul>
+                                <li>
+                                    <a href="">How to Hire</a>
+                                </li>
+                                <li>
+                                    <a href=""> Project Catalog</a>
+                                </li>
+                                <li>
+                                    <a href="">Talent Scout</a>
+                                </li>
+                                <li>
+                                    <a href="">Hire an Agency</a>
+                                </li>
+                                <li>
+                                    <a href="">Payroll Services</a>
+                                </li>
+                                <li>
+                                    <a href=""> Direct Contracts</a>
+                                </li>
+                                <li>
+                                    <a href="">Hire Worldwide</a>
+                                </li>
+                                <li>
+                                    <a href="">Hire in the USA</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-3 mb-4">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading2">
+                            <h5 class="navbar navbar-expand-lg dropdown-toggle" data-bs-toggle="collapse"
+                                data-bs-target="#collapse2">For Talent</h5>
+                        </h2>
+                        <div id="collapse2" class="accordion-collapse collapse show">
+                            <ul>
+                                <li>
+                                    <a href="">How to Find Work</a>
+                                </li>
+                                <li>
+                                    <a href="">Direct Contracts</a>
+                                </li>
+                                <li>
+                                    <a href="">Find Freelance Jobs Worldwide</a>
+                                </li>
+                                <li>
+                                    <a href="">Find Freelance Jobs in the USA</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-12 col-md-3 mb-4">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading3">
+                            <h5 class="navbar navbar-expand-lg dropdown-toggle" data-bs-toggle="collapse"
+                                data-bs-target="#collapse3">Resources</h5>
+                        </h2>
+                        <div id="collapse3" class="accordion-collapse collapse show">
+                            <ul>
+                                <li>
+                                    <a href="">Help & Support</a>
+                                </li>
+                                <li>
+                                    <a href="">Success Stories</a>
+                                </li>
+                                <li>
+                                    <a href="">Upwork Reviews</a>
+                                </li>
+                                <li>
+                                    <a href="">Blog</a>
+                                </li>
+                                <li>
+                                    <a href="">Community</a>
+                                </li>
+                                <li>
+                                    <a href="">Affiliate Program</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-12 col-md-3 mb-4">
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading4">
+                            <h5 class="navbar navbar-expand-lg dropdown-toggle" data-bs-toggle="collapse"
+                                data-bs-target="#collapse4">Company</h5>
+                        </h2>
+                        <div id="collapse4" class="accordion-collapse collapse show ">
+                            <ul>
+                                <li>
+                                    <a href="">About Us</a>
+
+                                </li>
+                                <li>
+                                    <a href="">Leadership</a>
+
+                                </li>
+                                <li>
+                                    <a href="">Investor Relations</a>
+
+                                </li>
+                                <li>
+                                    <a href="">Careers</a>
+
+                                </li>
+                                <li>
+                                    <a href="">Our Impact</a>
+
+                                </li>
+                                <li>
+                                    <a href="">Press</a>
+
+                                </li>
+                                <li>
+                                    <a href="">Contact Us</a>
+
+                                </li>
+                                <li>
+                                    <a href="">Trust, Safety & Security</a>
+
+                                </li>
+                                <li>
+                                    <a href="">Modern Slavery Statement</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row text-center">
+                <div class="col-12 col-lg-6 sociality text-center">
+
+                    <div class="social-links-wrap ml-5 text-center">
+                        <p style="font-size: x-large;text-align: center;">Follow Us </p>
+                        <a data-qa="social-link" title="Visit Upwork on Facebook" rel="noreferrer"
+                            href="https://www.facebook.com/upwork" target="_blank" class="social-icon w-inline-block">
+                            <img src="https://assets-global.website-files.com/603fea6471d9d8559d077603/604108984ed94c6805dae412_facebook.svg"
+                                alt="Facebook Logo" class="footer-social facebook-social-foote">
+                            <div class="background-circle"></div>
+                        </a>
+                        <a data-qa="social-link" title="Read Upwork company news on LinkedIn" rel="noreferrer"
+                            href="https://www.linkedin.com/company/upwork" target="_blank"
+                            class="social-icon w-inline-block">
+                            <img src="https://assets-global.website-files.com/603fea6471d9d8559d077603/604108984ed94c23e8dae415_social-linkedin.svg"
+                                alt="LinkedIn Logo" class="footer-social">
+                            <div class="background-circle"></div>
+                        </a>
+                        <a data-qa="social-link" title="Follow @Upwork on Twitter" rel="noreferrer"
+                            href="https://twitter.com/Upwork" target="_blank" class="social-icon w-inline-block">
+                            <img src="https://assets-global.website-files.com/603fea6471d9d8559d077603/604108984ed94c3990dae410_twitter.svg"
+                                alt="Twitter Logo" class="footer-social">
+                            <div class="background-circle"></div>
+                        </a>
+                        <a data-qa="social-link" title="Watch Upwork videos on Youtube" rel="noreferrer"
+                            href="https://www.youtube.com/channel/UCvxGFOnwUBDHHcxuPqhe4CQ" target="_blank"
+                            class="social-icon w-inline-block">
+                            <img src="https://assets-global.website-files.com/603fea6471d9d8559d077603/604108984ed94c0a18dae414_social-youtube.svg"
+                                alt="Youtube Logo" class="footer-social">
+                            <div class="background-circle"></div>
+                        </a>
+                        <a data-qa="social-link" title="Follow Upwork on Instagram" rel="noreferrer"
+                            href="https://www.instagram.com/upwork/" target="_blank" class="social-icon w-inline-block">
+                            <img src="https://assets-global.website-files.com/603fea6471d9d8559d077603/604108984ed94cd5b5dae413_ig.svg"
+                                alt="Instagram Logo" class="footer-social">
+                            <div class="background-circle"></div>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="social-links-wrap">
+                        <p>Mobile App</p>
+                        <a data-qa="social-link" title="Download Upwork app from iTunes" rel="noreferrer"
+                            href="https://apps.apple.com/us/developer/upwork-global-inc/id329377609" target="_blank"
+                            class="social-icon app-icon no-left-margjn r-2-0 w-inline-block"><img
+                                src="https://assets-global.website-files.com/603fea6471d9d8559d077603/604108984ed94c2cc4dae411_apple.svg"
+                                alt="Apple Logo" class="footer-social" style="filter: invert(0%);">
+                            <div class="background-circle" style="width: 0px; height: 0px;"></div>
+                        </a><a data-qa="social-link" title="Download Upwork app from Google Play" rel="noreferrer"
+                            href="https://play.google.com/store/apps/dev?id=8802639270489632480" target="_blank"
+                            class="social-icon app-icon r-2-0 w-inline-block"><img
+                                src="https://assets-global.website-files.com/603fea6471d9d8559d077603/604108984ed94cbf7edae40e_android.svg"
+                                alt="Android Logo" class="footer-social" style="filter: invert(0%);">
+                            <div class="background-circle" style="width: 0px; height: 0px;"></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="mb-2 text-light w-100">
+
+            <div class="row footer_subtitle ">
+                <div class="col-12 col-md-4 col-lg-5 ps-0 pe-5">
+                    <p style="color: linen">© 2015 - 2022 Upwork® Global Inc.</p>
+                </div>
+                <div class="col-12 col-md-4 col-lg-1 ps-1 pe-0">
+                    <a href="">Services Terms</a>
+                </div>
+                <div class="col-12 col-md-4 col-lg-1 px-1">
+                    <a href="">Privacy Policy</a>
+                </div>
+                <div class="col-12 col-md-4 col-lg-2 ps-2 pe-0">
+                    <a href="">CA Notice at Collection</a>
+                </div>
+                <div class="col-12 col-md-4 col-lg-1 p-0 ">
+                    <a href="">Cookie Settings</a>
+                </div>
+                <div class="col-12 col-md-4 col-lg-1 ps-2 ">
+                    <a href="">Accessibility</a>
+                </div>
+            </div>
+
+        </footer>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.2/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/functions.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,215 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    --greenDark:#38851a;
+    --greenLight:#14a800;
+    --lightGray:#4b4b4b;
+}
+@media screen and (min-width: 992px) {
+    .dropdown:hover .dropdown-menu {
+        display: block;
+        margin-top: 0; 
+     }
+}
+
+.head-container {
+    border-radius: 10px;
+    color: var(--greenDark);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 1px 1px 0 var(--greenLight);
+}
+
+.head-container p {
+    color: #000;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 1px 1px 0 transparent;
+
+}
+.head-container img {
+    width: 99%;
+    height: 380px;
+    padding: 12px;
+    border-radius: 20px;
+}
+/*For any Header in our page*/
+.headFontStyle {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #000;
+    font-size: 2.4em;
+    font-weight: bold;
+}
+
+/*For any side paragraph in our page*/
+.paragFontStyle {
+    color:var(--lightGray);
+    font-size: 1.25em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#getStarted {
+    font-size: 18px;
+    color: snow;
+    background-color: var(--greenLight);
+    border-radius: 25px;
+    padding: 5px 25px;
+    margin-bottom: 8px;
+}
+
+#getStarted:hover {
+    background-color: #1dcc06;
+}
+
+#trusted_by {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#trusted_by img {
+    width: 16%;
+    height: 60px;
+}
+
+.logo {
+    width: 80px;
+    height: 50px;
+}
+
+.nav-link,
+.btn {
+    color: #000;
+}
+
+.nav-link:hover{
+    color: var(--greenLight);
+    cursor: pointer;
+}
+
+.form_search {
+    border-radius: 30px;
+
+}
+
+/* ////footer */
+.footer {
+    background-color: #001e00f6;
+    border-radius: 15px;
+    text-align: left;
+    padding: 40px;
+    box-shadow: 15px 20px 100px inset #001e00, -15px -20px 100px inset #001e00;
+
+}
+
+.footer ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.footer li a {
+    color: #fff;
+    text-decoration: none;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.footer li {
+    margin-top: 15px;
+}
+
+.footer_titles {    
+    color: floralwhite;
+    margin: auto;
+}
+
+.footer li a:hover,
+.footer_subtitle a:hover,
+.txtLink:hover ,#seeMoreCateg:hover
+{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.footer_subtitle a {
+    color: #FCFDF2;
+    text-decoration: none;
+    margin-bottom: 50px;
+    font-size: 15px;
+}
+
+.footer p {
+    color: #FCFDF2;
+    text-align: center;
+}
+
+.social-links-wrap {
+    display: flex;
+    text-align: center;
+
+}
+
+.social-links-wrap img {
+    width: 30px;
+    height: 30px;
+    border: 2px solid grey;
+    border-radius: 50%;
+    margin-left: 20px;
+
+}
+
+.social-links-wrap img:hover {
+    width: 50px;
+    height: 50px;
+    border: 2px solid grey;
+    border-radius: 50%;
+    margin-left: 20px;
+    background-color: white;
+    transition: all 20s;
+
+}
+
+.sociality {
+    text-align: center;
+}
+/*section top betengan*/
+section section p {
+    font-weight: 600;
+    font-size: 24px;
+    color: var(--lightGray);
+}
+.skillsHover p:hover{
+    color: var(--greenLight);
+    cursor: pointer;
+}
+.listOfSkills {
+    font-weight: 600;
+    color: rgba(151, 151, 151, 0.35);
+}
+
+
+
+/* ///// page find job */
+.active{
+    color: var(--greenLight);
+}
+.like{
+    background-color: #FCFDF2;
+}
+.like:hover{
+background-color:paleturquoise;
+cursor: pointer;
+
+}
+.av_Connect{
+    color:#14a800
+
+}
+.av_Connect:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    
+}
