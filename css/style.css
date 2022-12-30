@@ -198,13 +198,13 @@ section section p {
 @media screen and (max-width: 768px) {
     section section p {
         font-weight: 600;
-        font-size: 20px;
+        font-size: 18px;
         color: var(--lightGray);
     }
     .listOfSkills {
         font-weight: 600;
         color: rgba(151, 151, 151, 0.35);
-        font-size: 28px;
+        font-size: 24px;
          text-align: left;
         border: transparent;
         background-color: transparent;
