@@ -175,23 +175,17 @@
 .sociality {
     text-align: center;
 }
+.skillsHover p:hover, .listOfSkills:hover{
+    color: var(--greenLight);
+    cursor: pointer;
+}
 /*section top skills*/
 section section p {
     font-weight: 600;
     font-size: 24px;
     color: var(--lightGray);
 }
-@media screen and (max-width: 768px) {
-    section section p {
-        font-weight: 600;
-        font-size: 20px;
-        color: var(--lightGray);
-    }
-}
-.skillsHover p:hover, .listOfSkills:hover{
-    color: var(--greenLight);
-    cursor: pointer;
-}
+
 .listOfSkills {
     font-weight: 600;
     color: rgba(151, 151, 151, 0.35);
@@ -201,6 +195,21 @@ section section p {
     background-color: transparent;
 }
 
+@media screen and (max-width: 768px) {
+    section section p {
+        font-weight: 600;
+        font-size: 20px;
+        color: var(--lightGray);
+    }
+    .listOfSkills {
+        font-weight: 600;
+        color: rgba(151, 151, 151, 0.35);
+        font-size: 28px;
+         text-align: left;
+        border: transparent;
+        background-color: transparent;
+    }
+}
 
 
 
