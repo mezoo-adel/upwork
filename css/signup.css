@@ -1,9 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-#cont{
+
+#cont {
 
     border: 1px solid lightgray;
     border-radius: 30px;
@@ -11,59 +12,68 @@
     margin-top: 3vh;
 
 }
-.ii{
-    float: right !important; 
+
+.ii {
+    float: right !important;
 }
-.hov:hover{
+
+.hov:hover {
     border: 2px solid rgb(23, 192, 23) !important;
 }
-#div1 ,#div2{
+
+#div1,
+#div2 {
     border: 2px solid lightgray;
     border-radius: 30px;
 }
 
-.borc{
+.borc {
     border: 2px solid rgb(23, 192, 23) !important;
 }
-.hied{
+
+.hied {
     display: none !important;
 }
 
-.show{
-    display:inline !important;
-} 
-.change{
+.show {
+    display: inline !important;
+}
+
+.change {
     background-color: rgb(23, 192, 23) !important;
     color: antiquewhite !important;
-} 
+}
 
 
 
-#btn{
+#btn {
     width: 60% !important;
     padding: 10px !important;
     border-radius: 22px !important;
-    color: gray ;
+    color: gray;
     margin: auto !important;
     margin-top: 2rem !important;
     text-align: center !important;
     margin-bottom: 1rem !important;
 }
-.pcnta{
-    
+
+.pcnta {
+
     width: 70% !important;
     margin: auto !important;
     margin-bottom: 1rem !important;
     padding-left: 7rem !important;
 
 }
-a{
+
+a {
     font-weight: bold !important;
     text-decoration: none !important;
 }
+
 @media (max-width:768px) {
-    #cont{       
+    #cont {
         width: 80% !important;
-height: 85% !important;
+        height: 85% !important;
     }
 }
