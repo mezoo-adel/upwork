@@ -11,22 +11,24 @@ window.addEventListener('load', function () {
     let navItem2 = this.document.querySelector("#collapse2");
     let navItem3 = this.document.querySelector("#collapse3");
     let navItem4 = this.document.querySelector("#collapse4");
-    navItem1.classList.add("show");
-    navItem2.classList.add("show");
-    navItem3.classList.add("show");
-    navItem4.classList.add("show");
-
+   //default for me is mobile
+    if ( window.innerWidth >= 768 ) {
+        console.log("im small mediaScreen from if" );
+        navItem1.classList.add("show");
+        navItem2.classList.add("show");
+        navItem3.classList.add("show");
+        navItem4.classList.add("show");
+    }
     const mQuery = window.matchMedia('(max-width: 768px)');
     mQuery.addEventListener("change", function (e) {
-        if (e.matches || window.innerWidth <= '768px' ) {
-            console.log("im changing media on" + e.matches);
+        if (e.matches || window.innerWidth < 768 ) {
+            console.log("im small media on littelScreen" + e.matches);
             navItem1.classList.remove("show");
             navItem2.classList.remove("show");
             navItem3.classList.remove("show");
             navItem4.classList.remove("show");
-            confirm("i'm small media "+e.matches);
         } else {
-            console.log("im NOT small media on " + e.matches);
+            console.log("im NOT small media " + e.matches);
             navItem1.classList.add("show");
             navItem2.classList.add("show");
             navItem3.classList.add("show");
@@ -64,6 +66,3 @@ seeMoreBtn.addEventListener("click", function () {
 
 
 });//end Loading
-
-
-
