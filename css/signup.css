@@ -63,7 +63,7 @@ a{
 }
 @media (max-width:768px) {
     #cont{       
-        width: 75% !important;
-
+        width: 80% !important;
+height: 85% !important;
     }
 }

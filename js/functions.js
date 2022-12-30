@@ -7,8 +7,29 @@ window.addEventListener('load', function () {
         // $(this).css('color','#14a800')
         $('.active').css('color', '#4b4b4b')
     });
+    let navItem1 = this.document.querySelector("#collapseOne");
+    let navItem2 = this.document.querySelector("#collapse2");
+    let navItem3 = this.document.querySelector("#collapse3");
+    let navItem4 = this.document.querySelector("#collapse4");
 
-
+    const mQuery = window.matchMedia('(max-width: 768px)');
+    mQuery.addEventListener("change", function (e) {
+        alert("im NOTHERE  media on" + e.matches);
+        if (e.matches || window.innerWidth <= '420px' ) {
+            console.log("im changing media on" + e.matches);
+            navItem1.classList.remove("show");
+            navItem2.classList.remove("show");
+            navItem3.classList.remove("show");
+            navItem4.classList.remove("show");
+            confirm(e.matches);
+        } else {
+            prompt("im NOT small media on" + e.matches);
+            navItem1.classList.add("show");
+            navItem2.classList.add("show");
+            navItem3.classList.add("show");
+            navItem4.classList.add("show");
+        }
+    });//end of media query
 });//end Loading
 
 //show more categories btn 
@@ -34,32 +55,10 @@ seeMoreBtn.addEventListener("click", function () {
 
 });//onClick button closer
 
-let navItem1 = this.document.querySelector("#collapseOne");
-let navItem2 = this.document.querySelector("#collapse2");
-let navItem3 = this.document.querySelector("#collapse3");
-let navItem4 = this.document.querySelector("#collapse4");
+
 //this is a listener for @media query screen
-const mQuery = window.matchMedia('(max-width: 768px)');
-alert(mQuery);
+
 
 //function will be used as callBack function
-function showLsItemsOfAccordion(e) {
-    alert("im NOTHERE  media on" + e.matches);
-    if (e.matches) {
-        console.log("im changing media on" + e.matches);
-        navItem1.classList.remove("show");
-        navItem2.classList.remove("show");
-        navItem3.classList.remove("show");
-        navItem4.classList.remove("show");
-        confirm(e.matches);
-    } else {
-        console.log("im NOT small media on" + e.matches);
-        navItem1.classList.add("show");
-        navItem2.classList.add("show");
-        navItem3.classList.add("show");
-        navItem4.classList.add("show");
-        prompt(e);
-    }
-}
+function showLsItemsOfAccordion
 //add this is listener on @media query screen
-mQuery.addEventListener("change", showLsItemsOfAccordion)
