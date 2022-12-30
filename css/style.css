@@ -175,20 +175,34 @@
 .sociality {
     text-align: center;
 }
-/*section top betengan*/
+/*section top skills*/
 section section p {
     font-weight: 600;
     font-size: 24px;
     color: var(--lightGray);
 }
-.skillsHover p:hover{
+@media screen and (max-width: 768px) {
+    section section p {
+        font-weight: 600;
+        font-size: 20px;
+        color: var(--lightGray);
+    }
+}
+.skillsHover p:hover, .listOfSkills:hover{
     color: var(--greenLight);
     cursor: pointer;
 }
 .listOfSkills {
     font-weight: 600;
     color: rgba(151, 151, 151, 0.35);
+    font-size: 38px;
+     text-align: start;
+    border: transparent;
+    background-color: transparent;
 }
+
+
+
 
 
 
