@@ -198,7 +198,7 @@ section section p {
 @media screen and (max-width: 768px) {
     section section p {
         font-weight: 600;
-        font-size: 18px;
+        font-size: 16px;
         color: var(--lightGray);
     }
     .listOfSkills {
