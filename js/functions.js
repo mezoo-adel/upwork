@@ -18,24 +18,23 @@ window.addEventListener('load', function () {
 
     const mQuery = window.matchMedia('(max-width: 768px)');
     mQuery.addEventListener("change", function (e) {
-        if (e.matches || window.innerWidth <= '420px' ) {
+        if (e.matches || window.innerWidth <= '768px' ) {
             console.log("im changing media on" + e.matches);
             navItem1.classList.remove("show");
             navItem2.classList.remove("show");
             navItem3.classList.remove("show");
             navItem4.classList.remove("show");
-            confirm("i'm small media"+e.matches);
+            confirm("i'm small media "+e.matches);
         } else {
-            console.log("im NOT small media on" + e.matches);
+            console.log("im NOT small media on " + e.matches);
             navItem1.classList.add("show");
             navItem2.classList.add("show");
             navItem3.classList.add("show");
             navItem4.classList.add("show");
         }
     });//end of media query
-});//end Loading
 
-//show more categories btn 
+    //show more categories btn 
 let toBeShown = document.getElementsByClassName("toBeShown");
 let seeMoreBtn = document.querySelector("#seeMoreCateg");
 let togleTxt = true;
@@ -57,4 +56,14 @@ seeMoreBtn.addEventListener("click", function () {
     toBeShown[3].classList.toggle("d-none");
 
 });//onClick button closer
+
+
+
+
+
+
+
+});//end Loading
+
+
 
