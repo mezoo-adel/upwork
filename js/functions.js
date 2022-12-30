@@ -6,7 +6,17 @@ window.addEventListener('load', function () {
         // $(this).css('color','#14a800')
         $('.active').css('color', '#4b4b4b')
     });//end of spyScroll >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+        
+    $('.shadow-none').hover(function(){
+        $(this).addClass('bg-light')
+        $('.job_title').addClass('av_Connect')
+       
+    }).mouseleave(function(){
+        $('.shadow-none').removeClass('bg-light')
+        $('.job_title').removeClass('av_Connect')
+    })
 
+    //to highlight the first listOfSkils
     document.getElementsByClassName("listOfSkills")[0].classList.add("active");
     //get footer
     let navItem1 = this.document.querySelector("#collapseOne");
