@@ -55,10 +55,3 @@ seeMoreBtn.addEventListener("click", function () {
 
 });//onClick button closer
 
-
-//this is a listener for @media query screen
-
-
-//function will be used as callBack function
-function showLsItemsOfAccordion
-//add this is listener on @media query screen
