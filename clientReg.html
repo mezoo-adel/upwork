@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <style>
+   *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   --bs-btn-bg:rgb(23, 192, 23) !important;
+   font-family:'Montserrat', sans-serif; 
+   }
+   h1{
+    font-weight: 600;
+   }
+    </style>
+</head>
+
+<body>
+
+<div class="container pt-5">
+    <form action="" method="" class="w-75 m-auto form-control mt-5">
+        <h1 align="center">sign up to hire talent</h1>
+        <div class="row mb-4 mt-5">
+            <div class="col">
+              <div >
+                <input type="text" class="form-control" placeholder="First name"/>
+              </div>
+            </div>
+            <div class="col">
+              <div >
+                <input type="text" class="form-control" placeholder="Last name"/>
+              </div>
+            </div>
+          </div>
+        
+          <!-- Email input -->
+          <div class=" mb-4">
+            <input type="email" class="form-control" placeholder="Work email address"/>
+          </div>
+        
+          <!-- Password input -->
+          <div class=" mb-4">
+            <input type="password" class="form-control" placeholder="Password"/>
+          </div>
+        
+          <!-- Checkbox -->
+          <div class="row mb-4">
+            <div class="col">
+               <select class="form-select">
+                <option value="city" selected>Egypt</option>
+               </select>
+              </div>
+              <div class="col">
+                <select class="form-select" id="governrates">
+                    <option value="governrate" selected>Cairo</option>
+                    <option value="governrate" >Alexandria</option>
+                    <option value="governrate" >Gharbia</option>
+                   </select>
+              </div>
+          </div>
+        
+          <!-- Submit button -->
+          <button type="submit" class="btn btn-success w-75 " style="border-radius:25px; margin-left: 12.5%;">Sign up</button>
+    </form>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
