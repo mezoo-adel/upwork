@@ -179,17 +179,17 @@
     color: var(--greenLight);
     cursor: pointer;
 }
-/*section top skills*/
+/*section top skilsInfo skills*/
 section section p {
     font-weight: 600;
-    font-size: 24px;
+    font-size: 20px;
     color: var(--lightGray);
 }
 
 .listOfSkills {
     font-weight: 600;
     color: rgba(151, 151, 151, 0.35);
-    font-size: 38px;
+    font-size: 33px;
      text-align: start;
     border: transparent;
     background-color: transparent;
