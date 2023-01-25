@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    --bs-btn-bg: rgb(23, 192, 23) !important;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-weight: 600;
+}
+
+/* login with google & apple */
+section {
+    outline: 1px solid black;
+    margin: 0px 8px;
+}
+
+section p {
+    margin: auto 0px;
+    font-size: small;
+    font-weight: 600;
+}
+
+#googleLogo {
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-right: 6px;
+    padding: 4px;
+    background-color: white;
+}
+
+#signupBtn {
+    border-radius: 25px;
+    margin-left: 12.5%;
+}
